@@ -1,0 +1,23 @@
+# === Rust build ===
+/target/
+/Cargo.lock
+**/*.rs.bk
+
+# === Editor configs ===
+.vscode/
+.idea/
+*.swp
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Node/JS ===
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
